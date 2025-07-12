@@ -65,7 +65,7 @@ json5==0.9.14
 jsonmerge==1.9.0
 jsonschema==4.17.3
 kombu==5.2.4
-llama-index==0.6.35
+llama-index==0.12.41
 log-symbols==0.0.14
 loguru==0.7.0
 lxml==4.9.2
@@ -127,7 +127,7 @@ tqdm==4.65.0
 tweepy==4.14.0
 typing-inspect==0.8.0
 ujson==5.7.0
-urllib3==1.26.16
+urllib3==2.5.0
 uvicorn==0.22.0
 vine==5.0.0
 w3lib==2.1.1
@@ -145,7 +145,7 @@ pylint==2.17.4
 pre-commit==3.3.3
 pytest-cov==4.1.0
 pytest-mock==3.11.1
-transformers==4.30.2
+transformers==4.52.0
 pypdf==3.11.0
 python-pptx==0.6.21
 Pillow==9.5.0
@@ -153,3 +153,4 @@ EbookLib==0.18
 html2text==2020.1.16
 duckduckgo-search==3.8.3 
 google-generativeai==0.1.0
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
